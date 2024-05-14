@@ -1,0 +1,65 @@
+The airfoil aerodynamic data presented in the article were obtained by using XFOIL with the typical commands sequence below (MATLAB scripts were used to read data files and generate figures).
+
+- XFOIL can be obtained from http://web.mit.edu/drela/Public/web/xfoil/
+
+- download, unzip and start XFOIL executable from the command line
+
+- follow the general command sequence below (modify parameters as needed):
+
+
+XFOIL c>
+
+	NACA 0012
+
+	OPER
+
+.OPERi c>
+
+	MACH 0.02
+
+	RE 1E5
+
+	ALFA 0 (or other angle values)
+
+	CPWR result_x_Cp_alfa00_invisc.dat
+
+	(press enter / return)
+
+XFOIL c>
+
+	SAVE airf_NACA0012_coords.dat
+
+	PLOP
+
+Option, Value c>
+
+	(adjust object and page dimensions if needed)
+
+	(press enter / return)
+
+XFOIL c>
+
+	OPER
+
+.OPERi c>
+
+	HARD
+
+	(create a file named "plot.ps" in the Xfoil folder; the file is appended by default, so we usually need to exit Xfoil for the file to be properly saved)
+
+	(press enter / return)
+
+XFOIL c>
+
+	QUIT
+
+	(file "plot.ps" is now properly closed; now you can rename it to ".EPS" to use in LaTex documents)
+
+
+- repeat the major steps above for other parameters (such as different angle values);
+
+- use VISC (under OPER) to consider viscous effects (such as separation bubbles);
+
+- use CPx or CPV (under OPER) to plot a graph with pressure coefficient or an airfoil with arrows;
+
+- for the user convenience, MATLAB scripts to read saved data files and generate figures are also available along with this instructions (see "f_XFoil_ReadTxt.m" and "f_XFoil_ReadTxt_Cp.m").
