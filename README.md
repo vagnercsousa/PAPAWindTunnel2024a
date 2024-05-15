@@ -9,5 +9,7 @@ All content included in this repository is available for study purposes only (no
 
 Best regards,
 
-Vagner
+Vagner C. Sousa
+Dep. of Aeronautical Engineering
+São Paulo State University (UNESP)
 Brazil, 2024
