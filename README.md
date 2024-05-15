@@ -1,7 +1,7 @@
 # PAPAWindTunnel2024a
 This repository contains supplementary material for the article available at
 
-    https://doi.org/10.21203/rs.3.rs-4176374/v1
+https://doi.org/10.21203/rs.3.rs-4176374/v1
 
 which describes an experimental study of a pitch-and-plunge airfoil model during wind tunnel bench tests.
 
