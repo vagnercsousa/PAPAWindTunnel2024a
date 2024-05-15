@@ -1,4 +1,13 @@
 # PAPAWindTunnel2024a
-Experimental data of a pitch-and-plunge NACA0012 airfoil in post-flutter wind tunnel tests
+This repository contains supplementary material for the article available at
 
-********** [ COMING SOON - 2024 - just organizing the data... ] **********
+    https://doi.org/10.21203/rs.3.rs-4176374/v1
+
+which describes an experimental study of a pitch-and-plunge airfoil model during wind tunnel bench tests.
+
+All content included in this repository is available for study purposes only (no warranties of any kind).
+
+Best regards,
+
+Vagner
+Brazil, 2024
