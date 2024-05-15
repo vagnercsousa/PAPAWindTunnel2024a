@@ -1,4 +1,4 @@
-The following itens are available in this repository (please refer to the article for details.):
+The following itens are available in this repository (please refer to the article for details):
 
 - airfoil wind tunnel experimental data;
 
