@@ -7,6 +7,8 @@ by
 
 Matheus Martines dos Santos (UNESP), Arthur Adeodato (UERJ), Osman Dağlı (ITU) and Vagner Candido de Sousa (UNESP)
 
+and published in "Discover Mechanical Engineering" (https://link.springer.com/journal/44245).
+
 The article describes an experimental study of a pitch-and-plunge airfoil model in wind tunnel bench tests.
 
 The article may be freely accessed at 
